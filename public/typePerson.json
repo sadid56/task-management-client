@@ -1,0 +1,26 @@
+
+   [
+      {
+        "id": 1,
+        "title": "Implement New Feature",
+        "feature": "Develop and integrate a cutting-edge feature to enhance the overall user experience, focusing on usability and innovation.",
+        "priority": "High",
+        "typeOfPerson": "Software Developer or UI/UX Designer"
+      },
+      {
+        "id": 2,
+        "title": "Financial Report Generation",
+        "feature": "Compile, analyze, and generate a comprehensive monthly financial report for presentation at the upcoming board meeting, ensuring accuracy and transparency.",
+        "priority": "Medium",
+        "typeOfPerson": "Financial Analyst or Accountant"
+      },
+      {
+        "id": 3,
+        "title": "Organize Team Building Event",
+        "feature": "Plan, coordinate, and execute a dynamic and engaging annual team-building event for all employees, fostering teamwork and a positive corporate culture.",
+        "priority": "Low",
+        "typeOfPerson": "Human Resources Professional or Event Planner"
+      }
+    ]
+  
+  

@@ -1,0 +1,41 @@
+
+     [
+      {
+        "id": 1,
+        "title": "Efficient Task Organization",
+        "description": "Organize tasks seamlessly for a clear overview of priorities and deadlines.",
+        "icon": "https://i.ibb.co/YXzRZrR/time-management-12967680.png"
+      },
+      {
+        "id": 2,
+        "title": "Real-time Progress Tracking",
+        "description": "Track task progress in real-time, ensuring transparency and accountability.",
+        "icon": "https://i.ibb.co/kmRTLsC/hourglass-5624961.png"
+      },
+      {
+        "id": 3,
+        "title": "Customizable Workflows",
+        "description": "Adapt task workflows to fit specific project requirements or team preferences.",
+        "icon": "https://i.ibb.co/ZM7jhsm/project-management-6356798.png"
+      },
+      {
+        "id": 4,
+        "title": "Automated Reminders",
+        "description": "Receive timely automated reminders for upcoming deadlines, reducing the risk of missed tasks.",
+        "icon": "https://i.ibb.co/ZMC6z4Z/notification-12881688.png"
+      },
+      {
+        "id": 5,
+        "title": "Intuitive User Interface",
+        "description": "Enjoy a user-friendly interface for seamless task management, suitable for all skill levels.",
+        "icon": "https://i.ibb.co/tzyf0Rn/user-9706632.png"
+      },
+      {
+        "id": 6,
+        "title": "Cross-Platform Accessibility",
+        "description": "Access task information from any device, promoting flexibility and remote work capabilities.",
+        "icon": "https://i.ibb.co/7yKfXH0/responsive-1891227.png"
+      }
+    ]
+  
+  
