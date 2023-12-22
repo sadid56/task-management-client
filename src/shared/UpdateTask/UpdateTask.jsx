@@ -13,7 +13,8 @@ const UpdateTask = ({task, refetch}) => {
       title: data?.title,
       description: data?.description,
       deadlines: data?.deadlines,
-      priority: data?.priority
+      priority: data?.priority,
+      status: data?.status
     }
 
     try{
@@ -31,6 +32,7 @@ const UpdateTask = ({task, refetch}) => {
     
   };
   const selectPriority = watch("priority");
+  const selectStatus = watch("status");
   return (
     <div>
       {/* You can open the modal using document.getElementById('ID').showModal() method */}
@@ -100,6 +102,23 @@ const UpdateTask = ({task, refetch}) => {
                 <option value="low">Low</option>
                 <option value="moderate">Moderate</option>
                 <option value="high">High</option>
+              </select>
+            </div>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Status</span>
+              </label>
+              <select
+                {...register("status")}
+                onChange={(e) => setValue("status", e.target.value)}
+                defaultValue={task?.status}
+                value={selectStatus}
+                className="select select-bordered"
+                name=""
+                id="">
+                <option value="to-do">To Do</option>
+                <option value="ongoing">Ongoing</option>
+                <option value="completed">completed</option>
               </select>
             </div>
           </div>
