@@ -1,7 +1,8 @@
 import { useState } from "react";
 import SIdebar from "./SIdebar";
-import Task from "./Task";
+
 import { FiMenu, FiX  } from "react-icons/fi";
+import AllTask from "./AllTask";
 
 
 const Dashboard = () => {
@@ -13,7 +14,8 @@ const Dashboard = () => {
             </div>
             <div className="w-full">
                 <button className={`text-3xl ${isToggle ? "ml-[70%] md:ml-[25%]" : ""} m-2`} onClick={()=>setIsToggle(!isToggle)}>{ !isToggle ? <FiMenu /> : <FiX/>}</button>
-                <Task/>
+                {/* <Task/> */}
+                <AllTask/>
             </div>
         </div>
     );
